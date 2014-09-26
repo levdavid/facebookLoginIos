@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <FacebookSDK/FacebookSDK.h>
+#import <FirebaseSimpleLogin/FirebaseSimpleLogin.h>
+
 
 @interface ViewController : UIViewController
 

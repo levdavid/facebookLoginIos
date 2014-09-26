@@ -23,6 +23,13 @@
 		94572CFB19D5ADB80064A30E /* blentestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94572CFA19D5ADB80064A30E /* blentestTests.m */; };
 		94572D0519D5AE570064A30E /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94572D0419D5AE570064A30E /* FacebookSDK.framework */; };
 		94572D0719D5B05B0064A30E /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94572D0619D5B05B0064A30E /* FacebookSDK.framework */; };
+		9468367A19D5BD0800D6A015 /* FirebaseSimpleLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468367919D5BD0800D6A015 /* FirebaseSimpleLogin.framework */; };
+		9468367C19D5BE0000D6A015 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468367B19D5BE0000D6A015 /* libicucore.dylib */; };
+		9468367E19D5BE0B00D6A015 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468367D19D5BE0B00D6A015 /* libc++.dylib */; };
+		9468368019D5BE1300D6A015 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468367F19D5BE1300D6A015 /* CFNetwork.framework */; };
+		9468368219D5BE1A00D6A015 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468368119D5BE1A00D6A015 /* Security.framework */; };
+		9468368419D5BE2400D6A015 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468368319D5BE2400D6A015 /* SystemConfiguration.framework */; };
+		949D928719D5FF660008C71F /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949D928619D5FF660008C71F /* Firebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +64,13 @@
 		94572CFA19D5ADB80064A30E /* blentestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blentestTests.m; sourceTree = "<group>"; };
 		94572D0419D5AE570064A30E /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		94572D0619D5B05B0064A30E /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		9468367919D5BD0800D6A015 /* FirebaseSimpleLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseSimpleLogin.framework; path = ../../Downloads/FirebaseSimpleLogin.framework; sourceTree = "<group>"; };
+		9468367B19D5BE0000D6A015 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		9468367D19D5BE0B00D6A015 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		9468367F19D5BE1300D6A015 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9468368119D5BE1A00D6A015 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9468368319D5BE2400D6A015 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		949D928619D5FF660008C71F /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = ../../Downloads/Firebase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +78,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9468368419D5BE2400D6A015 /* SystemConfiguration.framework in Frameworks */,
+				9468368219D5BE1A00D6A015 /* Security.framework in Frameworks */,
+				9468368019D5BE1300D6A015 /* CFNetwork.framework in Frameworks */,
+				9468367E19D5BE0B00D6A015 /* libc++.dylib in Frameworks */,
+				9468367C19D5BE0000D6A015 /* libicucore.dylib in Frameworks */,
 				94572CD219D5ADB80064A30E /* CoreGraphics.framework in Frameworks */,
+				9468367A19D5BD0800D6A015 /* FirebaseSimpleLogin.framework in Frameworks */,
+				949D928719D5FF660008C71F /* Firebase.framework in Frameworks */,
 				94572D0719D5B05B0064A30E /* FacebookSDK.framework in Frameworks */,
 				94572D0519D5AE570064A30E /* FacebookSDK.framework in Frameworks */,
 				94572CD419D5ADB80064A30E /* UIKit.framework in Frameworks */,
@@ -107,6 +128,13 @@
 		94572CCE19D5ADB80064A30E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				949D928619D5FF660008C71F /* Firebase.framework */,
+				9468368319D5BE2400D6A015 /* SystemConfiguration.framework */,
+				9468368119D5BE1A00D6A015 /* Security.framework */,
+				9468367F19D5BE1300D6A015 /* CFNetwork.framework */,
+				9468367D19D5BE0B00D6A015 /* libc++.dylib */,
+				9468367B19D5BE0000D6A015 /* libicucore.dylib */,
+				9468367919D5BD0800D6A015 /* FirebaseSimpleLogin.framework */,
 				94572D0619D5B05B0064A30E /* FacebookSDK.framework */,
 				94572D0419D5AE570064A30E /* FacebookSDK.framework */,
 				94572CCF19D5ADB80064A30E /* Foundation.framework */,
@@ -387,10 +415,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/libraries/Documents/FacebookSDK,
+					/Users/libraries/Downloads,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "blentest/blentest-Prefix.pch";
 				INFOPLIST_FILE = "blentest/blentest-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -404,10 +435,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/libraries/Documents/FacebookSDK,
+					/Users/libraries/Downloads,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "blentest/blentest-Prefix.pch";
 				INFOPLIST_FILE = "blentest/blentest-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -472,6 +506,7 @@
 				94572D0019D5ADB80064A30E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94572D0119D5ADB80064A30E /* Build configuration list for PBXNativeTarget "blentestTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +515,7 @@
 				94572D0319D5ADB80064A30E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
